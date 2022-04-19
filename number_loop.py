@@ -17,13 +17,14 @@ def main():
     # process & output
     try:
         number = int(number_string)
-
-        while loop_number < number:
-            loop_number = loop_number + 1
-            total = total + loop_number
+        if number < 0:
+            print("Not Defined")
+        elif number == 0:
+            print("1")
         else:
-            print("The sum off all numbers from 1 to {0} is {1}.".format(number, total))
-
+            for loop_number in range(number + 1):
+                total = loop_number * loop_number
+                print("{0}² = {1}.".format(loop_number, total))
     except Exception:
         print("\nThat was not an integer")
     print("\nDone.")
