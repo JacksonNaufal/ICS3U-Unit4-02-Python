@@ -37,7 +37,7 @@
                 <mxCell id="12" value="Invalid Input" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" parent="1" vertex="1">
                     <mxGeometry x="630" y="-210" width="100" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="73" value="" style="edgeStyle=none;rounded=0;html=1;" edge="1" parent="1" source="13" target="68">
+                <mxCell id="73" value="" style="edgeStyle=none;rounded=0;html=1;" parent="1" source="13" target="68" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="13" value="convert int to string" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -85,10 +85,10 @@
                         <mxPoint x="410.38709677419354" y="-160" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="60" value="" style="edgeStyle=none;html=1;startArrow=none;" edge="1" parent="1" source="78" target="10">
+                <mxCell id="60" value="" style="edgeStyle=none;html=1;startArrow=none;" parent="1" source="78" target="10" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="77" style="edgeStyle=none;rounded=0;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="56" target="68">
+                <mxCell id="77" style="edgeStyle=none;rounded=0;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="56" target="68" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="310" y="255"/>
@@ -96,32 +96,44 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="56" value="While integer_input &amp;gt; loop_number" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="56" value="While integer_input &amp;gt; loop_number" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="341" y="190" width="146" height="130" as="geometry"/>
                 </mxCell>
-                <mxCell id="74" value="" style="edgeStyle=none;rounded=0;html=1;" edge="1" parent="1" source="68" target="43">
+                <mxCell id="74" value="" style="edgeStyle=none;rounded=0;html=1;" parent="1" source="68" target="43" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="76" value="" style="edgeStyle=none;rounded=0;html=1;" edge="1" parent="1" source="68" target="69">
+                <mxCell id="76" value="" style="edgeStyle=none;rounded=0;html=1;" parent="1" source="68" target="69" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="68" value="total = total x&lt;br&gt;loop_number" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+                <mxCell id="68" value="total = total x&lt;br&gt;loop_number" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" parent="1" vertex="1">
                     <mxGeometry x="334" y="-30" width="160" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="71" value="" style="edgeStyle=none;rounded=0;html=1;" edge="1" parent="1" source="69" target="56">
+                <mxCell id="71" value="" style="edgeStyle=none;rounded=0;html=1;" parent="1" source="69" target="56" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="69" value="loop_number = loop_number + 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="69" value="loop_number = loop_number + 1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="354" y="90" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="78" value="Show factorial" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+                <mxCell id="78" value="Show factorial" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" parent="1" vertex="1">
                     <mxGeometry x="354" y="350" width="120" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="79" value="" style="edgeStyle=none;html=1;endArrow=none;" edge="1" parent="1" source="56" target="78">
+                <mxCell id="79" value="" style="edgeStyle=none;html=1;endArrow=none;" parent="1" source="56" target="78" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="414" y="320" as="sourcePoint"/>
                         <mxPoint x="414" y="460" as="targetPoint"/>
                     </mxGeometry>
+                </mxCell>
+                <mxCell id="80" value="exception" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="-480" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="81" value="yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="423" y="-400" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="82" value="no" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="483" y="-340" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="83" value="yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="427" y="-250" width="60" height="30" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
